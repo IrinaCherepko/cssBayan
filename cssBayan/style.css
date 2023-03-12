@@ -117,6 +117,10 @@ input:checked ~ .img {
 input:checked ~ .block-title .block-text {
     color: #000;
 }
+.block:hover .img,
+input:checked ~ .img {
+height: 30rem;
+} 
 @media (max-width: 1920px) {
   h1 {
     font-size: 4.5rem;
